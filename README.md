@@ -1,7 +1,7 @@
-mstats is a small package for statistics on manifolds. At this point (very
+**mstats** is a small package for statistics on manifolds. At this point (very
 early), it is only for computing medians on Riemannian manifolds.
 
-To compile and run, type:
+To compile and run a basic example, type:
 
     make mstats
 
@@ -13,7 +13,7 @@ To blow away all binaries, etc., run:
 
     make clean
 
-To compile the hard way, run:
+To compile and run the hard way, run:
 
     cabal configure
     cabal build
